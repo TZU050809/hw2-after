@@ -5,6 +5,15 @@
     --dark: #1B2C51;
 }
 
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/custom-font.woff2') format('woff2'),
+    url('fonts/custom-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .fw-medium {
     font-weight: 500 !important;
 }
@@ -25,7 +34,6 @@
     z-index: 99;
 }
 
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -39,7 +47,6 @@
     visibility: visible;
     opacity: 1;
 }
-
 
 /*** Button ***/
 .btn {
@@ -76,7 +83,6 @@
     justify-content: center;
     font-weight: normal;
 }
-
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
